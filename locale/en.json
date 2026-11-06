@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "title": "Naiwa · Desktop Pet",
+    "description": "A small yellow frog named Naiwa that lives in the corner of the window: it breathes, blinks, follows your cursor with its eyes, and says something when you poke it."
+  },
+  "label": "Naiwa",
+  "say.hello": "Naiwa is here.",
+  "say.idle1": "Careful, that tickles.",
+  "say.idle2": "Still here. Still yellow.",
+  "say.idle3": "Take a breath. You're doing fine.",
+  "say.drag": "Whoa — where are we going?",
+  "say.drop": "Oof. Comfy enough.",
+  "say.sleep": "Mmm… five more minutes.",
+  "say.wake": "I wasn't asleep. I was thinking."
+}

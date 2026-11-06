@@ -1,0 +1,30 @@
+{
+  "name": "@local/naiwa-pet",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Naiwa, a small yellow frog that lives in the corner of the Harness window.",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.png"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.png",
+    "assets/spritesheet.webp"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
